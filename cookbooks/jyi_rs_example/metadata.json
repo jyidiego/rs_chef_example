@@ -74,7 +74,8 @@
   "recommendations": {
   },
   "recipes": {
-    "jyi_rs_example::default": "Sample Cookbook Deployment, prints 'Hello World!' to the logs"
+    "jyi_rs_example::default": "Sample Cookbook Deployment, prints 'Hello World!' to the logs",
+    "jyi_rs_example::new_recipe": "New Recipe"
   },
   "groupings": {
   },
