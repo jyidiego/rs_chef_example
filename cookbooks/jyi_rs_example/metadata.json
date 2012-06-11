@@ -17,6 +17,50 @@
       ],
       "display_name": "First Name",
       "description": "Sufficiently described"
+    },
+    "about_me/favorite/drink": {
+      "required": "optional",
+      "calculated": false,
+      "category": "Favorites",
+      "choice": [
+
+      ],
+      "default": "Macallan",
+      "type": "string",
+      "recipes": [
+        "jyi_rs_example::default"
+      ],
+      "display_name": "Favorite Drink",
+      "description": "Your favorite drink"
+    },
+    "about_me/favorite/food": {
+      "required": "optional",
+      "calculated": false,
+      "category": "Favorites",
+      "choice": [
+
+      ],
+      "default": "burrito",
+      "type": "string",
+      "recipes": [
+        "jyi_rs_example::default"
+      ],
+      "display_name": "Favorite food",
+      "description": "Your favorite food"
+    },
+    "about_me/favorite/hobby": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "Soccer",
+      "type": "string",
+      "recipes": [
+        "jyi_rs_example::default"
+      ],
+      "display_name": "Favorite hobby",
+      "description": "Favorite hoby"
     }
   },
   "license": "All rights reserved",

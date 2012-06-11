@@ -14,3 +14,26 @@ attribute "about_me/first_name",
   :display_name => "First Name",
   :description => "Sufficiently described",
   :recipes => ["jyi_rs_example::default"]
+
+attribute "about_me/favorite/food",
+  :required => "optional",
+  :display_name => "Favorite food",
+  :description => "Your favorite food",
+  :category => "Favorites",
+  :default => "burrito",
+  :recipes => ["jyi_rs_example::default"]
+
+attribute "about_me/favorite/drink",
+  :required => "optional",
+  :display_name => "Favorite Drink",
+  :description => "Your favorite drink",
+  :category => "Favorites",
+  :default => "Macallan",
+  :recipes => ["jyi_rs_example::default"]
+
+attribute "about_me/favorite/hobby",
+  :required => "optional",
+  :display_name => "Favorite hobby",
+  :description => "Favorite hoby",
+  :default => "Soccer",
+  :recipes => ["jyi_rs_example::default"]
