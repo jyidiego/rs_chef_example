@@ -17,5 +17,6 @@ rs_utils_marker :begin
   hobby = node[:about_me][:favorite][:hobby]
           
   log "Hi, my name is #{first_name} and I like #{food}, #{drink} and #{hobby}."
+  log "Second Line of output to show Chef Dev Workflow."
 
 rs_utils_marker :end
