@@ -8,6 +8,7 @@ version          "0.0.1"
 depends "rs_utils"
 
 recipe "jyi_rs_example::default","Sample Cookbook Deployment, prints 'Hello World!' to the logs"
+recipe "jyi_rs_example::new_recipe","New Recipe"
 
 attribute "about_me/first_name",
   :required => "required",
