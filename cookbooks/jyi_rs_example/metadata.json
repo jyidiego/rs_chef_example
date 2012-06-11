@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "rs_utils": ">= 0.0.0"
   },
   "name": "jyi_rs_example",
   "maintainer_email": "jyi@webmd.net",
